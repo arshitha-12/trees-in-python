@@ -1,0 +1,45 @@
+Write a python class restaurant with attributes book_table,menu_items,customer_orders and methods like add_item_tolmenu,book_tables and customer_order
+add items to the menu
+make table reservations
+take customer orders
+print the menu
+print table reservations
+print customers
+---------------------------------
+no of customers=n
+no of orders=x
+no of items in the menu=y
+no of tables=z
+class restaurant:
+book_table=x
+cutomers=n
+def __init__(self,menu):
+self.menu=menu
+list=[]
+list.append(restaurant("dosa"))
+list.append(restaurant("panipuri"))
+list.append(restaurant("idly"))
+list.append(restaurant("vada"))
+list.append(restaurant("frenchfries"))
+list.append(restaurant("frankie"))
+list.append(restaurant("icecream"))
+list.append(restaurant("softdrink"))
+print(list)
+if x>=n:
+y=x-n
+print(y,"tables are available")
+else:
+print("oops!filled")
+
+2.create a bus child class that inherits from the vehicle class.The default fare charge of any vehicle is seating capacity *100.if vehicle is bus instance,we need to add an extra 10% on full fare as a maintence charge.so total fare for bus instance will become the final amount=total fare+10%of totalfare
+class vehicle:
+class bus(vehicle):
+3.car rental system implement a carrentalsystem class with the following features:It should have attributes such as the list of available cars,rented cars,and customer details.it should have methods to rent a car ,return a car and display the available cars and rented cars 
+4.Implement a social media network using object oriented programming(oop) concepts in python.The system should allow users to create profiles,connect with friends,post updates and interact with each other.The system should include the following features
+user profile
+friend connections
+posts and updates
+privacy settings
+
+
+
